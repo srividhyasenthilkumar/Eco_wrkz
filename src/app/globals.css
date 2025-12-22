@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+
+  --color-primary-green: #37b94c;
+  --color-primary-yellow: #abf547;
+  --color-primary-greenyellow: #6ad24a;
+  --color-primary-blue: #0269ac;
+
+  --bg-primary: linear-gradient(
+    90deg,
+    var(--color-primary-green),
+    var(--color-primary-greenyellow),
+    var(--color-primary-yellow)
+  ); /* ✅ SEMICOLON REQUIRED */
+}
+
+/* animation */
+@keyframes slideIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slideIn {
+  animation: slideIn 0.4s ease forwards;
+}
+.swiper,
+.swiper-slide {
+  border: none !important;
+  outline: none !important;
+  background: transparent !important;
+}
+
+.btn-primary {
+  background: linear-gradient(
+    90deg,
+    var(--color-primary-green),
+    var(--color-primary-greenyellow),
+    var(--color-primary-yellow)
+  );
+  color: #ffffff;
+  padding: 0.75rem 1.75rem;
+  /* border-radius: 0.75rem; */
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
