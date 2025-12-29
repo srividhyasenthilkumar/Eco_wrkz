@@ -18,7 +18,50 @@ import img_15 from "../../assets/gallery/gallery_img_15.webp"
 import eco_space from "../../assets/gallery/eco_space.webp"
 import eco_space_2 from "../../assets/gallery/eco_space_2.webp"
 import {Cctv,FingerprintPattern,ParkingMeter,Printer,Wifi} from "lucide-react"
+import { Metadata } from "next";
+export const metadata:Metadata = {
+    title: "Coworking space in anna nagar| Shared office space in anna nagar| cowrkz.in",
+    description: "The coworking space in Anna Nagar offers great amenities such as a fully furnished office, meeting room, etc. Get a 10% offer on premium booking.",
+    keywords: [
+   "coworking space in chennai",
+"coworking office space in chennai",
+"shared office space in chennai",
+"business centre in chennai",
+"commercial office space in chennai",
+"commercial office space for rent in chennai",
+"best coworking space in chennai",
+"office space in chennai",
+"office space for rent in chennai",
+"shared office space for rent in chennai",
 
+
+    ],
+
+    alternates: {
+        canonical: "https://ecowrkz.com/gallery/",
+        languages: {
+        "en-US": "https://ecowrkz.com/gallery/en"
+        }
+    },
+
+    openGraph: {
+        title: "Coworking space in anna nagar| Shared office space in anna nagar| cowrkz.in",
+        description: "The coworking space in Anna Nagar offers great amenities such as a fully furnished office, meeting room, etc. Get a 10% offer on premium booking.",
+        url: "https://ecowrkz.com/gallery/",
+        siteName: "Coworking Space in Anna Nagar,Korattur | Shared Office Space for Rent | Cowrkz",
+        images: [
+        {
+            url: "/images/eco_workz-logo.webp",
+            width: 928,
+            height: 341,
+            alt: "eco_workz-logo.webp",
+            type: "image/webp"
+        },
+        ],
+        locale: "en_US",
+        type: "article",
+    },
+}
 export default function GalleryPage() {
   const images = [img_1, img_2, img_3,img_4,img_5,img_6,img_7,img_8,img_9,img_10,img_11,img_12,img_13,img_14,img_15];
   return (
@@ -43,7 +86,7 @@ export default function GalleryPage() {
         <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold overflow-hidden">
          We break down walls so that you can breakthrough in your business.
         </p>
-         <p className="text-base sm:text-lg md:text-xl">
+         <p className="text-base sm:text-lg py-5 md:text-xl">
         “Don’t Wait for an opportunity. CREATE IT. "
       </p>
       </div>

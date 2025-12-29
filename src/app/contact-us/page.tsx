@@ -2,6 +2,50 @@ import Image from "next/image";
 import banner from "../../assets/about/banner.webp"
 import {MapPin,Phone,Mail} from "lucide-react"
 
+import { Metadata } from "next";
+export const metadata:Metadata = {
+    title: "Coworking space in anna nagar| Shared office space in anna nagar| cowrkz.in",
+    description: "The coworking space in Anna Nagar offers great amenities such as a fully furnished office, meeting room, etc. Get a 10% offer on premium booking.",
+    keywords: [
+   "coworking space in chennai",
+"coworking office space in chennai",
+"shared office space in chennai",
+"business centre in chennai",
+"commercial office space in chennai",
+"commercial office space for rent in chennai",
+"best coworking space in chennai",
+"office space in chennai",
+"office space for rent in chennai",
+"shared office space for rent in chennai",
+
+
+    ],
+
+    alternates: {
+        canonical: "https://ecowrkz.com/contact-us/",
+        languages: {
+        "en-US": "https://ecowrkz.com/contact-us/en"
+        }
+    },
+
+    openGraph: {
+        title: "Coworking space in anna nagar| Shared office space in anna nagar| cowrkz.in",
+        description: "The coworking space in Anna Nagar offers great amenities such as a fully furnished office, meeting room, etc. Get a 10% offer on premium booking.",
+        url: "https://ecowrkz.com/contact-us/",
+        siteName: "Coworking Space in Anna Nagar,Korattur | Shared Office Space for Rent | Cowrkz",
+        images: [
+        {
+            url: "/images/eco_workz-logo.webp",
+            width: 928,
+            height: 341,
+            alt: "eco_workz-logo.webp",
+            type: "image/webp"
+        },
+        ],
+        locale: "en_US",
+        type: "article",
+    },
+}
 export default function ContactUs() {
 return (
     <>
@@ -88,8 +132,28 @@ Tamil Nadu 600040
               </div>
              
               <div className="max-w-xl">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3885.9307594984375!2d80.1829074748438!3d13.103572887224049!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52639b6027b46d%3A0x3e66685730c27073!2sECowrkz%20Coworking%20Office%20Space%20%2F%20Shared%20Office%20Space%20in%20Anna%20Nagar%2C%20Chennai!5e0!3m2!1sen!2sin!4v1766210540813!5m2!1sen!2sin" width="600" height="250"  loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.219479635468!2d80.21498437484341!3d13.085272087240613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526426853d6169%3A0x626b3493464e1575!2sSabari%20Towers%2C%203rd%20Ave%2C%20W%20Block%2C%20Anna%20Nagar%2C%20Chennai%2C%20Tamil%20Nadu%20600040!5e0!3m2!1sen!2sin!4v1766221993637!5m2!1sen!2sin" width="600" height="250"  loading="lazy" referrerPolicy="no-referrer-when-downgrade" className="mt-20"></iframe>
+               <div className="w-full overflow-hidden rounded-xl
+                h-[220px] sm:h-[280px] md:h-[350px] lg:h-[250px]">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3885.9307594984375!2d80.1829074748438!3d13.103572887224049!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52639b6027b46d%3A0x3e66685730c27073!2sECowrkz%20Coworking%20Office%20Space%20%2F%20Shared%20Office%20Space%20in%20Anna%20Nagar%2C%20Chennai!5e0!3m2!1sen!2sin!4v1766210540813!5m2!1sen!2sin"
+    className="w-full h-full border-0"
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+    allowFullScreen
+  />
+</div>
+
+                <div className="mt-20 w-full overflow-hidden rounded-xl
+                h-[220px] sm:h-[280px] md:h-[350px] lg:h-[250px]">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.219479635468!2d80.21498437484341!3d13.085272087240613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526426853d6169%3A0x626b3493464e1575!2sSabari%20Towers%2C%203rd%20Ave%2C%20W%20Block%2C%20Anna%20Nagar%2C%20Chennai%2C%20Tamil%20Nadu%20600040!5e0!3m2!1sen!2sin!4v1766221993637!5m2!1sen!2sin"
+    className="w-full h-full border-0"
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+    allowFullScreen
+  />
+</div>
+
               </div>
             </div>
             

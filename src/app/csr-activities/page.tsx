@@ -1,7 +1,50 @@
 import Image from "next/image";
 import activity_1 from "../../assets/csr-activities/activity-1.webp"
 import banner from "../../assets/about/banner.webp"
+import { Metadata } from "next";
+export const metadata:Metadata = {
+    title: "CSR Activities - Coworking Space in Anna Nagar,Korattur | Shared Office Space for Rent | Cowrkz",
+    description: "",
+    keywords: [
+   "coworking space in chennai",
+"coworking office space in chennai",
+"shared office space in chennai",
+"business centre in chennai",
+"commercial office space in chennai",
+"commercial office space for rent in chennai",
+"best coworking space in chennai",
+"office space in chennai",
+"office space for rent in chennai",
+"shared office space for rent in chennai",
 
+
+    ],
+
+    alternates: {
+        canonical: "https://ecowrkz.com/csr-activities/",
+        languages: {
+        "en-US": "https://ecowrkz.com/csr-activities/en"
+        }
+    },
+
+    openGraph: {
+        title: "CSR Activities - Coworking Space in Anna Nagar,Korattur | Shared Office Space for Rent | Cowrkz",
+        description: "Home About Us Co-working Space Korattur Anna Nagar Shanthi Colony T Nagar Guindy Nungambakkam Ambattur CSR Activities Gallery Blog Contact Us X +91- 97100 79798 CSR ACTIVITIES Ecowrkz CSR Health Checkup Event with Dr. Metha’s Hospital, Clove Dental, and Ameen Vision Care – Free Health Services on 12th February 2025 On 12th February 2025, Ecowrkz […]",
+        url: "https://ecowrkz.com/csr-activities/",
+        siteName: "Coworking Space in Anna Nagar,Korattur | Shared Office Space for Rent | Cowrkz",
+        images: [
+        {
+            url: "/images/eco_workz-logo.webp",
+            width: 928,
+            height: 341,
+            alt: "eco_workz-logo.webp",
+            type: "image/webp"
+        },
+        ],
+        locale: "en_US",
+        type: "article",
+    },
+}
 export default function CSRActivities() {
 return (
     <>
